@@ -1,3 +1,5 @@
+# Inheritance between parent and child classes in Python.
+
 class Vehicle:
     def general_usage(self):
         print("General use of Vehicle is to Provide Transportation")
