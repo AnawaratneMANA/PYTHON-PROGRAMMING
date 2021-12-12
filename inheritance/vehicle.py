@@ -31,3 +31,11 @@ print()
 c = MotorCycle()
 c.general_usage()
 c.specific_usage()
+
+# isinstance method
+print (isinstance(c, Vehicle))
+print (isinstance(c, Car))
+
+# issubclass method
+print(issubclass(Car, Vehicle))
+print(issubclass(Car, MotorCycle))
