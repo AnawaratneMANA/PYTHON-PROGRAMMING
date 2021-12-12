@@ -1,3 +1,4 @@
+# Same Name Methods in multiple inheritance in Python.
 class Father():
     def skills(self):
         print("I enjoy Gardening")

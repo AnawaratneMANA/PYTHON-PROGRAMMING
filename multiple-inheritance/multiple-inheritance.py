@@ -1,3 +1,4 @@
+# Multiple inheritance in Python.
 class Father():
     def gardening(self):
         print("I enjoy Gardening")
