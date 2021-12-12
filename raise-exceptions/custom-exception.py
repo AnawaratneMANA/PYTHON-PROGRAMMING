@@ -5,6 +5,8 @@ class Accident(Exception):
         print("User Defined Exception : ",self.msg)
 
 try:
-    raise Accident("Crash between two cars happend")
+    raise Accident("Crash between two cars happens")
 except Accident as e:
     e.print_exception()
+finally:
+    print("This is where the clean-up process happens")
