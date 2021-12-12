@@ -6,4 +6,7 @@ print(next(itr))
 print(next(itr))
 print(next(itr)) # exception.
 
+itr = reversed(a)
+print(next(itr))
+
 # This Integrated in the for loop in Python.
