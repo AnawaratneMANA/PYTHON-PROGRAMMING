@@ -3,8 +3,8 @@
 import argparse
 if __name__ == "-__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("number1", help="first number")
-    parser.add_argument("number2", help="second number")
+    parser.add_argument("--number1", help="first number") # optional argument
+    parser.add_argument("number2", help="second number") # mandatory argument.
     parser.add_argument("operation", help="operation")
     args = parser.parse_args()
 
