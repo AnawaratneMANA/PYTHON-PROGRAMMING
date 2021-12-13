@@ -1,4 +1,4 @@
-# Set repeated data will be discarded.
+# Set repeated data will be discarded. (UPDATED)
 s = set([1,2,3,4,5,6,7,1,2,3])
 print(s)
 
